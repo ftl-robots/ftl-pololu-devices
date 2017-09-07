@@ -1,0 +1,19 @@
+{
+  "name": "ftl-pololu-devices",
+  "version": "1.0.0",
+  "description": "FTL interfaces to Pololu devices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ftl-robots/ftl-pololu-devices.git"
+  },
+  "author": "ZQ Yeo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ftl-robots/ftl-pololu-devices/issues"
+  },
+  "homepage": "https://github.com/ftl-robots/ftl-pololu-devices#readme"
+}
