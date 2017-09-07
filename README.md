@@ -1,2 +1,2 @@
 # ftl-pololu-devices
-FTL interfaces for Pololu devices 
+This package provides ftl-robot-host interfaces to Pololu devices like speed controllers, motor controllers, etc
