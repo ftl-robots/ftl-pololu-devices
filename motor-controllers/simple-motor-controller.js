@@ -1,6 +1,6 @@
 const { Interfaces, DeviceInterface, Constants } = require('@ftl-robots/ftl-robot-host');
-const PololuProtocol = require('./protocols/pololu-protocol');
-const PololuCompactProtocol = require('./protocols/pololu-compact-protocol');
+const PololuProtocol = require('../protocols/pololu-protocol');
+const PololuCompactProtocol = require('../protocols/pololu-compact-protocol');
 
 const PROTOCOL_IMPLEMENTATIONS = {
     'compact': PololuCompactProtocol,
