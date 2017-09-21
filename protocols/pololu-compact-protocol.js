@@ -2,6 +2,7 @@ const ProtocolBase = require('./protocol-base');
 
 class PololuCompactProtocol extends ProtocolBase {
     constructor(serialDevice) {
+        super();
         this.d_protocolType = 'PololuCompact';
         this.d_serialDevice = serialDevice;
     }

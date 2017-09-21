@@ -12,6 +12,7 @@ class SimpleMotorController extends DeviceInterface {
         super(id, interfaceImpl, config);
         this.d_type = "PololuSimpleMotorController";
 
+        config = config || {};
         // Make sure the interface implementation corresponds
         // to a serial device
         // if (!(interfaceImpl instanceof Interfaces.SERIAL)) {
