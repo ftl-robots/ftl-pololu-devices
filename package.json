@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ftl-robots/ftl-pololu-devices/issues"
   },
-  "homepage": "https://github.com/ftl-robots/ftl-pololu-devices#readme"
+  "homepage": "https://github.com/ftl-robots/ftl-pololu-devices#readme",
+  "dependencies": {
+    "@ftl-robots/ftl-robot-host": "^1.0.2"
+  }
 }
