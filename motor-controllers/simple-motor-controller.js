@@ -14,9 +14,9 @@ class SimpleMotorController extends DeviceInterface {
 
         // Make sure the interface implementation corresponds
         // to a serial device
-        if (!(interfaceImpl instanceof Interfaces.SERIAL)) {
-            throw new Error('Invalid interface provided. Expected a SERIAL interface');
-        }
+        // if (!(interfaceImpl instanceof Interfaces.SERIAL)) {
+        //     throw new Error('Invalid interface provided. Expected a SERIAL interface');
+        // }
 
         // Set up the defaults
         this.d_deviceId = -1;
