@@ -24,6 +24,8 @@ class SimpleMotorController extends DeviceInterface {
         this.d_protocol = 'compact'; // valid choices are compact, pololu
         this.d_protocolImpl = null;
 
+        this.d_invert = !!config.invert;
+
         if (config.deviceId !== undefined) {
             this.d_deviceId = config.deviceId;
         }
@@ -59,6 +61,10 @@ class SimpleMotorController extends DeviceInterface {
                 value = 255;
             }
 
+            if (this.d_invert) {
+                value = -value;
+            }
+            
             this.d_protocolImpl.drive(value);
         }
     }
